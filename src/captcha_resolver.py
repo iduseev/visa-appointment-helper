@@ -27,5 +27,5 @@ class CaptchaResolver:
             print("solved captcha: " + str(result))
             return result
         except Exception as e:
-            print(f"Exception occurred: {e}")
+            print(f"Exception occurred while captcha resolving: {e}")
             sys.exit(e)
